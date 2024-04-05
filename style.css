@@ -431,7 +431,7 @@ span{
     row-gap: 5rem;
 }
 .portfolio-card {
-    height: 600px;
+    height: 450px;
     max-width: 450px;
     background-color: rgba(0, 0, 0, 0.32);
     backdrop-filter: blur(30px);
@@ -457,6 +457,7 @@ span{
 .portfolio-card img{
     max-width: 18vw;
     object-fit: cover;
+    border-radius: 2rem;
 }
 .portfolio-card h3{
     font-size: 3rem;
@@ -548,67 +549,197 @@ span{
     box-shadow: 0 0 25px red,
                 0 0 50px red;
 }
-
 .bar .progress-line.css span{
-    width: 75%;
+    width: 80%;
     background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.css span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
 }
 .bar .progress-line.javascript span{
-    width: 75%;
+    width: 80%;
     background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.javascript span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
 }
 .bar .progress-line.python span{
-    width: 75%;
+    width: 70%;
     background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.python span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
 }
 .bar .progress-line.sql span{
     width: 75%;
     background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.sql span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
 }
 .bar .progress-line.sqlite span{
-    width: 75%;
+    width: 70%;
     background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.sqlite span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
 }
 .bar .progress-line.django span{
-    width: 75%;
+    width: 50%;
     background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.django span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
 }
 .bar .progress-line.vue span{
-    width: 75%;
+    width: 35%;
     background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.vue span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
 }
 .bar .progress-line.bootstrap span{
-    width: 75%;
+    width: 50%;
     background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.bootstrap span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
 }
 .bar .progress-line.nodejs span{
-    width: 75%;
+    width: 30%;
     background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.nodejs span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
 }
 .bar .progress-line.mysql span{
-    width: 75%;
+    width: 60%;
     background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.mysql span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
 }
 .bar .progress-line.mariadb span{
-    width: 75%;
+    width: 60%;
     background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.mariadb span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
 }
 .bar .progress-line.git span{
-    width: 75%;
+    width: 70%;
     background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.git span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
 }
 .bar .progress-line.markdown span{
-    width: 75%;
+    width: 85%;
     background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.markdown span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
 }
 .bar .progress-line.linux span{
     width: 75%;
     background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.linux span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
 }
 .bar .progress-line.docker span{
     width: 75%;
     background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
 }
+.bar .progress-line.docker span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
+}
+.bar .progress-line.github span{
+    width: 70%;
+    background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.github span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
+}
+.bar .progress-line.bitbucket span{
+    width: 40%;
+    background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.bitbucket span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
+}
+.bar .progress-line.office span{
+    width: 70%;
+    background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.office span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
+}
+.bar .progress-line.c span{
+    width: 20%;
+    background-color: red;
+    box-shadow: 0 0 25px red;
+    transition: 0.3s ease;
+}
+.bar .progress-line.c span:hover{
+    box-shadow: 0 0 25px red,
+                0 0 50px red;
+}
+
 
 .contact{
     background-color: var(--bg-color);

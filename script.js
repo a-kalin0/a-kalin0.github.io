@@ -24,3 +24,11 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
+
+let docTitle = document.title;
+window.addEventListener("blur", () =>{
+    document.title = "Come back ☹";
+})
+window.addEventListener("focus", () =>{
+    document.title = docTitle;
+})

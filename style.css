@@ -356,123 +356,6 @@ span{
 
 /* Skills */
 
-/* Projects */
-
-.projects{
-    background: var(--second-bg-color);
-    color: black;
-}
-.projects h2{
-    margin-bottom: 5rem;
-    color : var(--text-color);
-}
-.projects-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-items: center;
-    gap : 2.5rem;
-}
-.project-box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--main-color);
-    height: 500px;
-    border-radius: 3rem;
-    border: 5px solid transparent;
-    cursor: pointer;
-    transition: 0.4s ease-in-out;
-}
-.project-box:hover{
-    background-color: var(--second-bg-color);
-    color: var(--main-color);
-    border: 5px solid var(--main-color);
-    transform: scale(1.03);
-}
-.project-box .project-info{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem 5rem;
-}
-.project-info h4{
-    font-size: 4rem;
-    margin: 2rem 0;
-    font-weight: 800;
-}
-.project-info p{
-    font-size: 1.4rem;
-    font-weight: 600;
-    line-height: 1.7;
-}
-.project-info i{
-    font-size: 8rem;
-}
-
-/* Portfolios */
-
-.portfolios{
-    background: url(img/background.jpg)center no-repeat;
-    background-size: cover;
-}
-.portfolios h2{
-    margin-bottom: 5rem;
-    color: white;
-}
-.portfolios-box{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    place-items: center;
-    margin: 5rem 0;
-    gap: 3rem;
-    row-gap: 5rem;
-}
-.portfolio-card {
-    height: 450px;
-    max-width: 450px;
-    background-color: rgba(0, 0, 0, 0.32);
-    backdrop-filter: blur(30px);
-    border: 2px solid var(--main-color);
-    border-radius: 5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 2rem;
-    padding: 5rem 2rem;
-    overflow: hidden;
-    cursor: pointer;
-    box-shadow: 0 0 5px var(--main-color);
-    transition: 0.4s ease;
-}
-.portfolio-card:hover{
-    box-shadow: 0 0 25px var(--main-color),
-                0 0 50px var(--main-color);
-    transform: scale(1.02);
-}
-.portfolio-card img{
-    max-width: 18vw;
-    object-fit: cover;
-    border-radius: 2rem;
-}
-.portfolio-card h3{
-    font-size: 3rem;
-}
-.portfolio-card p{
-    font-size: 1.6rem;
-}
-
-
-.resume{
-    margin: 0 auto;
-}
-
-
-
 .skills h2{
     margin-bottom: 2rem;
 }
@@ -742,6 +625,122 @@ span{
                 0 0 50px red;
 }
 
+/* Projects */
+
+.projects{
+    background: var(--second-bg-color);
+    color: black;
+}
+.projects h2{
+    margin-bottom: 5rem;
+    color : var(--text-color);
+}
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap : 2.5rem;
+}
+.project-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+    height: 500px;
+    border-radius: 3rem;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.project-box:hover{
+    background-color: var(--second-bg-color);
+    color: var(--main-color);
+    border: 5px solid var(--main-color);
+    transform: scale(1.03);
+}
+.project-box .project-info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 5rem;
+}
+.project-info h4{
+    font-size: 4rem;
+    margin: 2rem 0;
+    font-weight: 800;
+}
+.project-info p{
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.7;
+}
+.project-info i{
+    font-size: 8rem;
+}
+
+/* Portfolios */
+
+.portfolios{
+    background: url(img/background.jpg)center no-repeat;
+    background-size: cover;
+}
+.portfolios h2{
+    margin-bottom: 5rem;
+    color: white;
+}
+.portfolios-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    margin: 5rem 0;
+    gap: 3rem;
+    row-gap: 5rem;
+}
+.portfolio-card {
+    height: 450px;
+    max-width: 450px;
+    background-color: rgba(0, 0, 0, 0.32);
+    backdrop-filter: blur(30px);
+    border: 2px solid var(--main-color);
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 5rem 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 5px var(--main-color);
+    transition: 0.4s ease;
+}
+.portfolio-card:hover{
+    box-shadow: 0 0 25px var(--main-color),
+                0 0 50px var(--main-color);
+    transform: scale(1.02);
+}
+.portfolio-card img{
+    max-width: 18vw;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+.portfolio-card h3{
+    font-size: 3rem;
+}
+.portfolio-card p{
+    font-size: 1.6rem;
+}
+
+
+.resume{
+    margin: 0 auto;
+}
+
+/* contact */
 
 .contact{
     background-color: var(--bg-color);
@@ -836,14 +835,22 @@ span{
     color: white;
 }
 
+/* Responsive */
+
 @media(max-width:1285px){
     html{
         font-size: 55%;
     }
-    .portfolios-container{
+    .projects-container{
         padding-bottom: 7rem;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
         margin: 0 5rem;
+    }
+    .portfolios-box{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .portfolios-box img{
+        min-width: 30vw;
     }
 }
 @media(max-width:991px){
@@ -909,6 +916,14 @@ span{
     .home{
         flex-direction: column-reverse;
         margin: 5rem 4rem;
+        gap: 3rem;
+    }
+    .home-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     .home-content h3{
         font-size: 2.6rem;
@@ -923,6 +938,7 @@ span{
     }
     .home-img img{
         width: 56vw;
+        margin: 3rem 0;
     }
     .portfolios h2{
         margin-bottom: 3rem;
@@ -930,7 +946,20 @@ span{
     .portfolios-container{
         grid-template-columns: repeat(1,1fr);
     }
+    .portfolios-box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .portfolios-box img{
+        min-width: 42rem;
+    }
+    .projects h2{
+        margin-bottom: 3rem;
+    }
+    .projects-container{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
+
 .resume {
     background-color: var(--second-bg-color);
     backdrop-filter: blur(7px);

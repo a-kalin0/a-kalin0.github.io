@@ -261,8 +261,6 @@ span{
     margin: 5rem 0;
 }
 
-/* Education */
-
 .education{
     padding: 100px 15px;
     background: var(--second-bg-color);
@@ -354,7 +352,6 @@ span{
     width: 50px;
 }
 
-/* Skills */
 
 .skills h2{
     margin-bottom: 2rem;
@@ -625,8 +622,6 @@ span{
                 0 0 50px red;
 }
 
-/* Projects */
-
 .projects{
     background: var(--second-bg-color);
     color: black;
@@ -680,8 +675,6 @@ span{
 .project-info i{
     font-size: 8rem;
 }
-
-/* Portfolios */
 
 .portfolios{
     background: url(img/background.jpg)center no-repeat;
@@ -739,8 +732,6 @@ span{
 .resume{
     margin: 0 auto;
 }
-
-/* contact */
 
 .contact{
     background-color: var(--bg-color);

@@ -1017,7 +1017,7 @@ table, th, td {
     text-align: left;
 }
 table a{
-    color: var(--text-color);
+    color: black;
 }
 
 thead th {
@@ -1027,6 +1027,9 @@ thead th {
     background-color: #000000fe;
     cursor: pointer;
     text-transform: capitalize;
+}
+tbody td {
+    color: black;
 }
 
 tfoot tr {

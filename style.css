@@ -980,8 +980,11 @@ span{
     line-height: 1.8;
     max-width: 1000px; 
 }
+.table__body{
+    font-size: 1.5rem;
+}
 .table__body {
-    width: 95%;
+    width: 100%;
     max-height: calc(69% - 1.5rem);
     background-color: rgba(208, 0, 0, 0.733);
 
@@ -1081,23 +1084,26 @@ tbody tr.hide td img {
     text-align: center;
 }
 
-.type.online {
+.type.online_bureautique {
     background-color: #86e49d;
-    color: #006b21;
+}
+
+.type.online_devweb {
+    background-color: #e486e4;
+}
+
+.type.online_softskills {
+    background-color: #e4e186;
 }
 
 .type.hackaton {
-    background-color: #d893a3;
-    color: #b30021;
+    background-color: #f03957;
 }
 
 .type.ctf {
-    background-color: #ebc474;
+    background-color: #eb9c74;
 }
 
 .type.soft {
     background-color: #6fcaea;
-}
-.type.project {
-    background-color: #ea6fe2;
 }

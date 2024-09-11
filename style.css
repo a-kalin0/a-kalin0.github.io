@@ -531,13 +531,13 @@ span{
     box-shadow: 0 0 25px red,
                 0 0 50px red;
 }
-.bar .progress-line.mariadb span{
+.bar .progress-line.postgre span{
     width: 60%;
     background-color: red;
     box-shadow: 0 0 25px red;
     transition: 0.3s ease;
 }
-.bar .progress-line.mariadb span:hover{
+.bar .progress-line.postgre span:hover{
     box-shadow: 0 0 25px red,
                 0 0 50px red;
 }
